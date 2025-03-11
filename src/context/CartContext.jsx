@@ -188,7 +188,7 @@ export default function CartContextProvider({ children }) {
             if (paymentMethod === 'online') {
                 // Online payment using Stripe
                 response = await axios.post(
-                    `https://ecommerce.routemisr.com/api/v1/orders/checkout-session/${cartId}?url=http://localhost:5173`,
+                    `https://ecommerce.routemisr.com/api/v1/orders/checkout-session/${cartId}?url=https://ahmed-elghwab.github.io`,
                     {
                         shippingAddress: shippingAddress
                     },
