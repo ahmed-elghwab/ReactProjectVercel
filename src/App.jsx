@@ -8,8 +8,6 @@ import Brands from './components/Brands/Brands'
 import Categories from './components/Categories/Categories'
 import Products from './components/Products/Products'
 import Cart from './components/cart/cart'
-import Cart from './components/cart/cart';
-
 import Login from './components/Login/Login'
 import Register from './components/Register/Register'
 import Wishlist from './components/Wishlist/Wishlist'
