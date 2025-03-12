@@ -20,7 +20,8 @@ import CheckOut from './components/CheckOut/CheckOut'
 import AllOrders from './components/AllOrders/AllOrders'
 import PasswordReset from './components/PasswordReset/PasswordReset'
 import { Helmet, HelmetProvider } from 'react-helmet-async';
-import Cart from '@/components/cart/cart';
+import Cart from './components/Cart/Cart';
+
 
 
 
