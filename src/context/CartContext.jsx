@@ -188,7 +188,7 @@ export default function CartContextProvider({ children }) {
             if (paymentMethod === 'online') {
                 // Online payment using Stripe
                 response = await axios.post(
-                    `https://ecommerce.routemisr.com/api/v1/orders/checkout-session/${cartId}?url=https://react-project-vercel-one.vercel.app/`,
+                    `https://ecommerce.routemisr.com/api/v1/orders/checkout-session/${cartId}?url=https://react-project-vercel-one.vercel.app`,
                     {
                         shippingAddress: shippingAddress
                     },
