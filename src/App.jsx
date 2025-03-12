@@ -7,7 +7,6 @@ import Notfound from './components/Notfound/Notfound'
 import Brands from './components/Brands/Brands'
 import Categories from './components/Categories/Categories'
 import Products from './components/Products/Products'
-
 import Login from './components/Login/Login'
 import Register from './components/Register/Register'
 import Wishlist from './components/Wishlist/Wishlist'
@@ -21,7 +20,7 @@ import CheckOut from './components/CheckOut/CheckOut'
 import AllOrders from './components/AllOrders/AllOrders'
 import PasswordReset from './components/PasswordReset/PasswordReset'
 import { Helmet, HelmetProvider } from 'react-helmet-async';
-import Cart from './components/cart/cart';  // folder: 'cart', file: 'cart.jsx'
+import Cart from './components/cart/cart.jsx';
 
 
 
