@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Layout from './components/Layout/Layout'
 import Home from './components/Home/Home'
 import Notfound from './components/Notfound/Notfound'
@@ -7,6 +8,8 @@ import Brands from './components/Brands/Brands'
 import Categories from './components/Categories/Categories'
 import Products from './components/Products/Products'
 import Cart from './components/cart/cart'
+import Cart from './components/cart/cart';
+
 import Login from './components/Login/Login'
 import Register from './components/Register/Register'
 import Wishlist from './components/Wishlist/Wishlist'
