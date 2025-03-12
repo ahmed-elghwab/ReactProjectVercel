@@ -17,7 +17,8 @@ import {QueryClient, QueryClientProvider} from '@tanstack/react-query'
 import CartContextProvider from './context/CartContext'
 import  { Toaster } from 'react-hot-toast';
 import CheckOut from './components/CheckOut/CheckOut'
-import AllOrders from './components/AllOrders/AllOrders'import PasswordReset from './components/PasswordReset/PasswordReset'
+import AllOrders from './components/AllOrders/AllOrders'
+import PasswordReset from './components/PasswordReset/PasswordReset'
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import Cart from './components/Cart/Cart';
 
